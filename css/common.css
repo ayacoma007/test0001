@@ -1,0 +1,137 @@
+/*---------------------------------
+add css standard start
+--------------------------------*/
+
+img {
+	max-width: 100%;
+}
+
+table {
+	width: 100%;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	min-height: 1px;
+}
+
+* html .clearfix {
+	height: 1px;
+	/*¥*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+}
+
+.both {
+	clear: both;
+}
+
+.inline_block {  
+	display: inline-block;  
+	*display: inline;  
+	*zoom: 1;  
+}
+
+/*---------------------------------
+add css standard end
+add css layout start
+--------------------------------*/
+
+.contents div{
+	margin-bottom: 32px;
+}
+
+.img_left {
+	float: left;
+	width: 32%;
+}
+
+.text_right {
+	float: right;
+	width: 64%;
+}
+
+.img_right {
+	float: right;
+	width: 32%;
+}
+
+.text_left {
+	float: left;
+	width: 64%;
+}
+
+.content2_1 {
+	width: 48%;
+	float: left;
+}
+
+.content2_2 {
+	width: 48%;
+	float: right;
+}
+
+.content3_1 , .content3_2 , .content3_3 {
+	width: 30%;
+	float: left;
+}
+
+.content3_2 {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.content4_1 , .content4_2 , .content4_3 , .content4_4 {
+	width: 22%;
+	float: left;
+}
+
+.content4_2 {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.content4_3 {
+	margin-right: 4%;
+}
+
+.note {
+	background: #fcfcfc;
+	padding: 8px 16px;
+	margin: 16px 0;
+}
+
+.note p {
+	margin: 0;
+	padding: 4px 0;
+}
+
+.header_left {
+	width: 48%;
+	float: left;
+}
+
+.header_right {
+	width: 48%;
+	float: right;
+}
+
+@media screen and (max-width: 480px){
+	.contents div{
+		width: 100%;
+		margin: 0 0 24px;
+		float: none;
+	}
+}
+
+/*---------------------------------
+add css layout end
+--------------------------------*/
